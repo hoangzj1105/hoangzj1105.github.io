@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Hồ Văn Hoàng — Frontend Developer & UI/UX Designer</title>
+  <meta name="description" content="Portfolio của Hồ Văn Hoàng - Frontend Developer, React/Next.js, UI/UX Designer. Nhận freelance landing page, web app, dashboard." />
+  <meta name="author" content="Hồ Văn Hoàng" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:title" content="Hồ Văn Hoàng — Frontend Developer & UI/UX Designer" />
+  <meta property="og:description" content="Portfolio của Hồ Văn Hoàng - React, Next.js, UI/UX. Nhận freelance." />
+  <meta property="og:type" content="website" />
+  <!-- favicon (bỏ vào assets/favicon.ico nếu muốn) -->
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="avatar">
+          <img src="assets/avatar.jpg" alt="Ảnh Hồ Văn Hoàng" />
+        </div>
+        <div class="who">
+          <h1>Hồ Văn Hoàng</h1>
+          <p class="role">Frontend Developer • UI/UX Designer • Freelancer</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="hero-left">
+          <h2>Xin chào — mình là <strong>Hồ Văn Hoàng</strong></h2>
+          <p class="lead">Mình làm frontend & thiết kế UI/UX. Hơn 3 năm kinh nghiệm, chuyên React/Next.js, responsive design và tối ưu chuyển đổi. Nhận project freelance (landing page, web app, dashboard, prototype).</p>
+          <div class="ctas">
+            <a class="btn" href="assets/Ho_Van_Hoang_CV.pdf" target="_blank" rel="noopener">Tải CV (PDF)</a>
+            <a class="btn ghost" href="#contact">Liên hệ</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/ho-van-hoang" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://dribbble.com/ho-van-hoang" target="_blank" rel="noopener">Dribbble</a>
+            <a href="https://www.linkedin.com/in/ho-van-hoang" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="stats">
+            <div><strong>5+</strong><span>Dự án</span></div>
+            <div><strong>3+</strong><span>Năm kinh nghiệm</span></div>
+            <div><strong>Freelance</strong><span>Available</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section card">
+        <h3>Dự án nổi bật</h3>
+        <div class="projects-grid">
+          <article class="project">
+            <h4>Shopify Store — Web bán hàng</h4>
+            <p>Thiết kế & triển khai cửa hàng thời trang: tối ưu tốc độ, tích hợp thanh toán, quản lý đơn hàng. Tech: Liquid, React, Stripe.</p>
+          </article>
+
+          <article class="project">
+            <h4>Dashboard SaaS</h4>
+            <p>Xây dựng dashboard quản trị: charts, phân quyền, export dữ liệu. Tech: React, TypeScript, Chart.js.</p>
+          </article>
+
+          <article class="project">
+            <h4>Mobile UI & Prototype</h4>
+            <p>Thiết kế UI/UX cho ứng dụng giao đồ ăn; wireframes → prototype trên Figma → user-testing.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section card">
+        <h3>About</h3>
+        <p>Mình là Hồ Văn Hoàng — freelancer frontend & UI/UX designer. Mình tập trung vào việc chuyển ý tưởng thành sản phẩm có trải nghiệm tốt, code sạch và dễ bảo trì. Sẵn sàng làm việc theo giờ hoặc giá cố định.</p>
+      </section>
+
+      <section id="skills" class="section card">
+        <h3>Kỹ năng</h3>
+        <div class="skills-list">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">React</span>
+          <span class="chip">Next.js</span>
+          <span class="chip">TypeScript</span>
+          <span class="chip">Figma</span>
+        </div>
+      </section>
+
+      <section id="contact" class="section card">
+        <h3>Liên hệ</h3>
+        <form id="contactForm">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Tên của bạn" required />
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <input type="text" name="subject" placeholder="Tiêu đề" />
+          <textarea name="message" placeholder="Nội dung" required></textarea>
+          <div class="form-actions">
+            <button class="btn" type="submit">Gửi</button>
+            <button class="btn ghost" type="reset">Xóa</button>
+          </div>
+        </form>
+        <p class="contact-note">Hoặc email trực tiếp: <a href="mailto:ho.vanhoang@example.com">ho.vanhoang@example.com</a></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© Hồ Văn Hoàng — 2025 • Designed & built by me</p>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
